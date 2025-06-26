@@ -8,7 +8,7 @@ import Customer from '../../components/main/Customer'
 
 const HomePage = () => {
   return (
-    <div className=''>
+    <div className='overflow-hidden'>
       <HeroSection/>
       <Customer/>
       <Advantage/>
