@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'satoshi';
+  src: url('assets/font/Satoshi-Variable.ttf') format('truetype');
+}
+
+@layer utilities {
+  @media (min-width: 400px) {
+    .xs-w-taken {
+      width: 320px;
+    }
+  }
+}
